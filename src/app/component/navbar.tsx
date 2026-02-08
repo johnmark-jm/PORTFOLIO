@@ -17,7 +17,8 @@ const Navbar = () => {
         { name: 'Skills', href: '#skills'},
         { name: 'Experience', href: '#experience'},
         { name: 'Works', href: '#works'},
-        { name: 'Clients', href: '#clients'}
+        { name: 'Clients', href: '#clients'},
+        { name: 'Contact', href: '#contact'},
     ];
 
     useEffect(() => {

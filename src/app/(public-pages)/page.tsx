@@ -6,6 +6,7 @@ import AboutMe from "../section/aboutMe-section";
 import ClientsSections from "../section/clients-sections";
 import SkilssSection from "../section/skilss-section";
 import Work from "../section/work-section";
+import Contact from "../section/contact-section";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Experience/>
       <Work/>
       <ClientsSections/>
+      <Contact/>
       
      
     

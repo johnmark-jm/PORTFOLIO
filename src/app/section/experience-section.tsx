@@ -44,7 +44,7 @@ const Experience = () => {
     <section id="experience" className="mt-30 relative scroll-mt-50">
       <SectionTitle
         title='Experience'
-        description='I graduated from Carlos Hilado Memorial State College and completed my on-the-job training at Easy Rock Bacolod as a Software Developer and Graphic Designer. There, I gained hands-on experience in web development, software solutions, and creative design, strengthening both my technical and design skills.'
+        description='I graduated from Carlos Hilado Memorial State University and completed my on-the-job training at Easy Rock Bacolod as a Software Developer and Graphic Designer. There, I gained hands-on experience in web development, software solutions, and creative design, strengthening both my technical and design skills.'
       />
 
       <motion.div className='relative space-y-20 md:space-y-30 mt-20'

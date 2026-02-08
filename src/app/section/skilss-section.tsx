@@ -59,7 +59,7 @@ const SkilssSection = () => {
     ];
 
   return (
-   <section className="mt-30">
+   <section id="skills" className="mt-30 scroll-mt-50">
     <SectionTitle
         title='Skills'    
     />

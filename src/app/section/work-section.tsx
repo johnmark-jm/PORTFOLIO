@@ -68,7 +68,7 @@ const Work= () => {
             },
             {
                 id: 4,
-                title: "Company Profile",
+                title: "Company Profile this is testtestte",
                 year: "2017-2026",
                 description: "All of my logo designs with mock up",
                 link: "#!",
@@ -77,8 +77,11 @@ const Work= () => {
         ]
     }
   return (
-   <section className='mt-32 relative'>
-        <SectionTitle title='All My Works'/>
+   <section id='works' className="mt-30 relative scroll-mt-50">
+        <SectionTitle 
+            title='All My Works'
+            description='Heres`s what I`ve done in the past'    
+        />
 
         <motion.div className='mx-auto mt-10'
             initial={{ y: 150, opacity: 0 }}

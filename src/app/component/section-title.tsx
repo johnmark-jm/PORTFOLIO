@@ -10,7 +10,7 @@ export interface SectionTitleProps {
 
 const SectionTitle= ({title, description} : SectionTitleProps) => {
   return (
-    <div className='text-center'>
+    <div className='text-center mt-30'>
         <motion.h2 className='text-lg font-semibold max-w-lg mx-auto mt-4 text-white'
         initial={{ y: 200, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}

@@ -13,11 +13,11 @@ const Navbar = () => {
     const pathname = usePathname();
 
     const Links = [
-        { name: 'Home', href: '/' },
-        { name: 'Agents', href: '/'},
-        { name: 'Use Cases', href: '/'},
-        { name: 'Pricing', href: '/'},
-        { name: 'Docs', href: '/'}
+        { name: 'About', href: '#about' },
+        { name: 'Skills', href: '#skills'},
+        { name: 'Experience', href: '#experience'},
+        { name: 'Works', href: '#works'},
+        { name: 'Clients', href: '#clients'}
     ];
 
     useEffect(() => {
@@ -38,6 +38,7 @@ const Navbar = () => {
 
   return (
   <>
+    <style>{`html { scroll-behavior: smooth; }`}</style>
     <motion.nav className={`sticky top-0 z-50 flex w-full items-center justify-between px-4 py-3.5 md:px-16 lg:px-24 transition-colors ${isScrolled ? 'bg-white/15 backdrop-blur-lg':''}`}
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -45,7 +46,7 @@ const Navbar = () => {
         transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}    
     >   
         <motion.p className='text-center text-lg md:text-xl/19 font-semibold tracking-tight max-w-3xl'>
-            PORTFOLIO
+           <a href='/#' className='text-white'>MY PROFILE</a>
         </motion.p> 
         {/* <a href='#!'>
             <Image src='../../assets/logo.svg' alt='logo' className='h-8.5 w-auto' width={205} height={48} />
@@ -57,7 +58,7 @@ const Navbar = () => {
             ))}
 
             <Link href='/' className='btn glass'>
-                Sign Up
+                Contact
             </Link>
         </div>
         

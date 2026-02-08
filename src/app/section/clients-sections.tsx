@@ -5,7 +5,7 @@ import SectionTitle from '../component/section-title';
 
 const ClientsSections = () => {
   return (
-    <section className="mt-32 relative">
+    <section id="clients" className="mt-30 relative scroll-mt-50">
       <SectionTitle title='Clients'/>
 
       <motion.div className='relative space-y-20 md:space-y-30 mt-20'

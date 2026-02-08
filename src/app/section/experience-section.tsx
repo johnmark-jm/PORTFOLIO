@@ -41,7 +41,7 @@ const Experience = () => {
 ];
 
   return (
-    <section className="mt-32 relative">
+    <section id="experience" className="mt-30 relative scroll-mt-50">
       <SectionTitle
         title='Experience'
         description='I graduated from Carlos Hilado Memorial State College and completed my on-the-job training at Easy Rock Bacolod as a Software Developer and Graphic Designer. There, I gained hands-on experience in web development, software solutions, and creative design, strengthening both my technical and design skills.'

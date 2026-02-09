@@ -3,18 +3,42 @@
 import React from 'react'
 import SectionTitle from '../component/section-title'
 import { motion } from 'framer-motion'
+import { ArrowRightIcon } from 'lucide-react'
 
 const Contact= () => {
   return (
     <section id="contact" className="mt-30 relative scroll-mt-50">
-      <SectionTitle title='Contact'/>
-
-      <motion.div className='relative space-y-20 md:space-y-30 mt-20'
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+      <motion.div className='flex flex-col max-w-5xl mt-40 px-4 mx-auto items-center justify-center text-center py-16 rounded-xl glass'
+          initial={{ y: 150, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
+          transition={{ type: "spring", stiffness: 320, damping: 70, mass: 1 }}
       >
+        <motion.h2 className="text-2xl md:text-4xl font-medium mt-2"
+                initial={{ y: 80, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ type: "spring", stiffness: 280, damping: 70, mass: 1 }}
+            >
+              Contact Me
+        </motion.h2>
+         <motion.p className="mt-4 text-sm/7 max-w-md"
+              initial={{ y: 80, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ type: "spring", stiffness: 200, damping: 70, mass: 1 }}
+          >
+              See how fast you can turn your ideas into reality. Get started for free, no credit card required.
+          </motion.p>
+          <motion.button className="btn glass transition-none flex items-center gap-2 mt-8"
+              initial={{ y: 80, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ type: "spring", stiffness: 280, damping: 70, mass: 1 }}
+          >
+              Try now
+              <ArrowRightIcon className="size-4" />
+          </motion.button>
 
       </motion.div>
     </section>

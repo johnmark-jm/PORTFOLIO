@@ -18,7 +18,6 @@ const Navbar = () => {
         { name: 'Experience', href: '#experience'},
         { name: 'Works', href: '#works'},
         { name: 'Clients', href: '#clients'},
-        { name: 'Contact', href: '#contact'},
     ];
 
     useEffect(() => {
@@ -58,7 +57,7 @@ const Navbar = () => {
                 <Link key={link.name} href={link.href} className='transition hover:text-gray-300'>{link.name}</Link>
             ))}
 
-            <Link href='/' className='btn glass'>
+            <Link href='#contact' className='btn glass'>
                 Contact
             </Link>
         </div>

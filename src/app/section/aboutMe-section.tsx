@@ -9,7 +9,7 @@ const AboutMe = () => {
     <div id="about" className='mt-30 scroll-mt-50'>
         <SectionTitle
             title='About Me'
-            description='Multidisciplinary Software Developer & Designer with 7 years of experience crafting responsive websites, intuitive UI/UX, and impactful digital experiences. Skilled in React, Next.js, Tailwind CSS, PHP, JavaScript, Bootstrap, and the Adobe Creative Suite.'    
+            description='Multidisciplinary Web Developer & Designer with 7 years of experience crafting responsive websites, intuitive UI/UX, and impactful digital experiences. Skilled in React, Next.js, Tailwind CSS, PHP, JavaScript, Bootstrap, and the Adobe Creative Suite.'    
         />
 
         <motion.div className='flex flex-col md:flex-row items-center justify-center gap-4 pb-6 mt-8'
